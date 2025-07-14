@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn Python in Nepali | Best Python Training in Nepal | Technology Channel</title>
+  <meta name="description" content="Join Nepal's #1 Python training program. Learn Python in Nepali language with Bishworaj Poudel. Master Python programming, build real projects, and start your coding career in Nepal. Enroll now!" />
+  <meta name="keywords" content="Python training in Nepal, Learn Python in Nepali, Python course Nepal, Nepali Python training, Python classes Nepal, Bishworaj Poudel Python, Technology Channel Nepal" />
+  <meta name="author" content="Bishworaj Poudel" />
+  <meta property="og:title" content="Learn Python in Nepali | Best Python Training in Nepal | Technology Channel" />
+  <meta property="og:description" content="Join Nepal's #1 Python training program. Learn Python in Nepali language with Bishworaj Poudel. Master Python programming, build real projects, and start your coding career in Nepal." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://technologychannel.org/python-course" />
+  <meta property="og:image" content="https://bishworajpoudel.com/wp-content/uploads/2024/10/bishworaj-poudel.png" />
+  <link rel="canonical" href="https://technologychannel.org/python-course" />
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Simple fade-up animation */
+    [data-aos]{opacity:0;transition:opacity .6s ease,transform .6s ease;transform:translateY(20px);}
+    .aos-animate{opacity:1;transform:none;}
+
+    /* Lightbox styles */
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .lightbox.active {
+      display: flex;
+    }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90vh;
+      object-fit: contain;
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      color: white;
+      font-size: 30px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 10px;
+    }
+
+    .gallery-item {
+      cursor: pointer;
+    }
+
+    /* Notification styles */
+    .notification {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: rgba(16, 185, 129, 0.95);
+      color: white;
+      padding: 15px 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.5s ease;
+      z-index: 1000;
+      max-width: 300px;
+    }
+
+    .notification.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    .notification.hide {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 leading-relaxed">
+  <!-- 1. HERO -->
+  <section class="bg-slate-900 text-white py-20" data-aos id="hero">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <!-- Left Column: Text Content -->
+      <div class="text-center md:text-left">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-6">
+          Learn Python<br />
+          <span class="text-indigo-400">In 45 Days</span>
+        </h1>
+        <p class="text-xl md:text-2xl mb-8">
+          Learn to <span class="underline decoration-indigo-400">Coding in Nepali</span>, build real projects & start your programming journey with
+          <strong><a href="https://bishworajpoudel.com/" target="_blank" class="hover:text-indigo-400 transition">Bishworaj Poudel</a></strong>. Only Python training that you need.
+        </p>
+        <a href="#pricing" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-4 px-8 rounded-2xl shadow-xl transition">
+          🔒Register Now
+        </a>
+        <p class="mt-4 text-sm opacity-80">
+          Next batch: <strong>August 4 – September 5, 2025</strong> | Daily 6-7 PM NPT (Mon-Fri)
+        </p>
+        <p class="text-xs">7-Day 100% 'Love-it-or-Refund' Guarantee</p>
+        <div class="mt-2 flex items-center justify-center space-x-2">
+          <span class="px-3 py-1 bg-red-500 text-white text-xs font-bold rounded-full animate-pulse">🔥 Limited Seats Available</span> <br>
+        
+        </div>
+      </div>
+
+      <!-- Right Column: Video Placeholder -->
+      <div id="video-placeholder" class="relative group cursor-pointer rounded-2xl overflow-hidden shadow-xl aspect-video bg-slate-800">
+        <img src="https://img.youtube.com/vi/RH_LLlzUdgY/maxresdefault.jpg" alt="Course Intro Video Thumbnail" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-75">
+        <div class="absolute inset-0 flex items-center justify-center">
+          <!-- Play Button -->
+          <svg class="w-20 h-20 text-white drop-shadow-lg transition-transform duration-300 group-hover:scale-110" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Countdown Timer Section -->
+  <section class="bg-slate-800 text-white py-8" id="countdown-timer-section" data-aos>
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4 text-red-400">⏰ Time is Running Out</h2>
+      <p class="mb-4 text-lg">This isn’t just another course. It’s the only python training that you need in your life.
+      <div id="countdown" class="text-3xl sm:text-4xl lg:text-5xl font-mono flex justify-center space-x-1 sm:space-x-2 lg:space-x-4 items-start">
+        <div class="bg-slate-700 p-2 sm:p-3 lg:p-4 rounded-lg shadow-lg">
+          <span id="days" class="block">00</span>
+          <p class="text-xs md:text-sm mt-1 opacity-75">Days</p>
+        </div>
+        <div class="text-3xl sm:text-4xl lg:text-5xl font-normal self-center text-slate-500 pb-3 sm:pb-4 lg:pb-5">:</div>
+        <div class="bg-slate-700 p-2 sm:p-3 lg:p-4 rounded-lg shadow-lg">
+          <span id="hours" class="block">00</span>
+          <p class="text-xs md:text-sm mt-1 opacity-75">Hours</p>
+        </div>
+        <div class="text-3xl sm:text-4xl lg:text-5xl font-normal self-center text-slate-500 pb-3 sm:pb-4 lg:pb-5">:</div>
+        <div class="bg-slate-700 p-2 sm:p-3 lg:p-4 rounded-lg shadow-lg">
+          <span id="minutes" class="block">00</span>
+          <p class="text-xs md:text-sm mt-1 opacity-75">Minutes</p>
+        </div>
+        <div class="text-3xl sm:text-4xl lg:text-5xl font-normal self-center text-slate-500 pb-3 sm:pb-4 lg:pb-5">:</div>
+        <div class="bg-slate-700 p-2 sm:p-3 lg:p-4 rounded-lg shadow-lg">
+          <span id="seconds" class="block">00</span>
+          <p class="text-xs md:text-sm mt-1 opacity-75">Seconds</p>
+        </div>
+      </div>
+      <p id="countdown-message" class="mt-6 text-xl md:text-2xl font-semibold hidden"></p>
+    </div>
+  </section>
+
+  <!-- 2. SOCIAL PROOF -->
+  <section class="py-10" data-aos>
+    <div class="max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+      <div><p class="text-3xl font-bold">297 763+</p><p class="text-sm text-gray-500">YouTube Subscribers</p></div>
+      <div><p class="text-3xl font-bold">26 127+</p><p class="text-sm text-gray-500">Community Members</p></div>
+      <div><p class="text-3xl font-bold">7+</p><p class="text-sm text-gray-500">Years Teaching</p></div>
+      <div><p class="text-3xl font-bold">13+</p><p class="text-sm text-gray-500">Hands-On Projects</p></div>
+    </div>
+  </section>
+
+  <!-- 3. WHY LEARN PYTHON -->
+  <section class="py-16 bg-gray-100" data-aos id="why">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">Why You Need to Learn Python</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <h3 class="text-xl font-semibold mb-3 text-blue-900">💼 High Demand Career</h3>
+          <p class="text-gray-700">Python is the most in-demand programming language. 80% of tech companies use Python. Secure your future with high-paying job opportunities.</p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-white to-green-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <h3 class="text-xl font-semibold mb-3 text-green-900">🚀 Easy to Start Coding Language</h3>
+          <p class="text-gray-700">Python's simple syntax makes it perfect for beginners. Start coding immediately without getting overwhelmed by complex syntax.</p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-white to-purple-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <h3 class="text-xl font-semibold mb-3 text-purple-900">🤝 Strong Community Support</h3>
+          <p class="text-gray-700">Join millions of Python developers worldwide. Get help anytime with extensive documentation and active community forums.</p>
+        </div>
+
+        <div class="bg-gradient-to-br from-white to-orange-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <h3 class="text-xl font-semibold mb-3 text-orange-900">🌐 Build Website and Backends</h3>
+          <p class="text-gray-700">Create powerful websites, APIs, and backend systems with Django and Flask. Build complete web applications from scratch.</p>
+        </div>
+
+        <div class="bg-gradient-to-br from-white to-red-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <h3 class="text-xl font-semibold mb-3 text-red-900">✨ Endless Possibilities</h3>
+          <p class="text-gray-700">From web development to data science, from automation to game development. Python opens doors to countless career paths.</p>
+        </div>
+
+        <div class="bg-gradient-to-br from-white to-indigo-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <h3 class="text-xl font-semibold mb-3 text-indigo-900">🤖 Best Language For AI</h3>
+          <p class="text-gray-700">Python dominates AI and machine learning. Learn the language that powers ChatGPT, self-driving cars, and the future of technology.</p>
+        </div>
+      </div>
+      
+      <div class="mt-8 text-center">
+        <p class="text-xl font-semibold text-gray-800 mb-4">Your today’s action  <span class="text-emerald-600">writes tomorrow’s headlines.</span></p>
+        <a href="#pricing" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-3 px-8 rounded-xl shadow-lg transition">
+          Start Your Python Journey Today
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. MEET YOUR MENTOR -->
+  <section class="bg-white py-16" data-aos id="mentor">
+    <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <img src="https://bishworajpoudel.com/wp-content/uploads/2024/10/bishworaj-poudel.png" alt="Bishworaj Poudel"
+           class="rounded-2xl shadow-lg w-full h-auto object-cover"/>
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Meet Your Mentor</h2>
+        <p class="text-lg mb-4">
+          <a href="https://bishworajpoudel.com/" target="_blank" class="hover:text-indigo-600 transition">Bishworaj Poudel</a> has spent the last 7+ years empowering Nepali learners to turn
+          programming into opportunity. His tutorials are the <strong>most watched tech content in Nepal</strong>, reaching <strong>295 000+</strong> subscribers,
+          and his community of <strong>26K+</strong> collaborates on projects that land jobs
+          and freelance gigs worldwide.
+        </p>
+        <ul class="space-y-3 text-base list-disc list-inside mb-6">
+          <li>Creator of <a href="https://www.youtube.com/technologychannel" target="_blank" class="text-indigo-600 hover:underline"><b>Technology Channel</b></a> — Nepal's leading tech-education platform</li>
+          <li>Creator of <a href="https://play.google.com/store/apps/details?id=com.learnaibasic.app&hl=en&gl=US" target="_blank" class="text-indigo-600 hover:underline"><strong>Learn Python App</strong></a> — #1 searched app on Google Play</li>
+          <li>Creator of <a href="https://play.google.com/store/apps/details?id=computerbasicguide.com" target="_blank" class="text-indigo-600 hover:underline"><strong>Learn Computer Basic App</strong></a>(100K+) Downloaded</li>
+          <li>Host of Nepal's Top Tech Events Like <a href="https://gdg.community.dev/events/details/google-gdg-kathmandu-presents-build-with-ai-2025-nepal/" target="_blank" class="text-indigo-600 hover:underline"><strong>Build with AI</strong></a> and <a href="https://connect.devopskathmandu.com/" target="_blank" class="text-indigo-600 hover:underline"><strong>DevOps Kathmandu</strong></a></li>
+          <li><a href="https://www.docker.com/captains/bishworaj-poudel" target="_blank" class="text-indigo-600 hover:underline"><strong>Docker Captain</strong></a>, Recognized technical expert by <a href="https://www.docker.com/" target="_blank" class="text-indigo-600 hover:underline">Docker Inc.</a></li>
+          <li>Consulted for 7+ companies on Python development & automation</li>
+        </ul>
+        <p class="text-base text-gray-600">
+          Learn directly from a proven expert who makes complex Python concepts accessible and practical.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STUDENT SUCCESS GALLERY -->
+  <section class="py-20 bg-gradient-to-b from-white to-gray-50" data-aos id="gallery">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-4">What You Will Do?</h2>
+      <p class="text-center text-gray-600 mb-12">See what our students have built using Python programming and techniques learned in class</p>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Master Python Programming -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 gallery-item">
+          <div class="relative aspect-video">
+            <img src="works/00tools.png" alt="Master Python Programming" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="font-semibold text-lg mb-2">Master Python Programming</h3>
+            <p class="text-gray-600 text-sm">Learn to write clean, efficient Python code to solve real-world problems and build powerful applications</p>
+          </div>
+        </div>
+
+        <!-- Build 11+ Real World Apps -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 gallery-item">
+          <div class="relative aspect-video">
+            <img src="works/04 software.png" alt="Real World Applications" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="font-semibold text-lg mb-2">Build 11+ Real World Apps</h3>
+            <p class="text-gray-600 text-sm">Create practical applications that solve real problems and build an impressive portfolio</p>
+          </div>
+        </div>
+
+        <!-- Visualize and Explain Data -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 gallery-item">
+          <div class="relative aspect-video">
+            <img src="works/01logo.png" alt="Data Visualization" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="font-semibold text-lg mb-2">Visualize and Explain Data</h3>
+            <p class="text-gray-600 text-sm">Create stunning data visualizations and analyze complex datasets using Python libraries</p>
+          </div>
+        </div>
+
+        <!-- Automate Boring Tasks -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 gallery-item">
+          <div class="relative aspect-video">
+            <img src="works/07automate_with_ai.png" alt="Task Automation" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="font-semibold text-lg mb-2">Automate Boring Tasks</h3>
+            <p class="text-gray-600 text-sm">Automate repetitive tasks and workflows to save time and increase productivity</p>
+          </div>
+        </div>
+
+        <!-- Build Website Using Django -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 gallery-item">
+          <div class="relative aspect-video">
+            <img src="works/02 website.jpg" alt="Django Web Development" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="font-semibold text-lg mb-2">Build Website Using Django</h3>
+            <p class="text-gray-600 text-sm">Build professional websites and web applications using Django framework</p>
+          </div>
+        </div>
+
+        <!-- Create AI Chatbots -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 gallery-item">
+          <div class="relative aspect-video">
+            <img src="works/08_create_ai_video.png" alt="AI Chatbots" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="font-semibold text-lg mb-2">Create AI Chatbots</h3>
+            <p class="text-gray-600 text-sm">Build intelligent chatbots and AI-powered applications using Python and machine learning</p>
+          </div>
+        </div>
+      </div>
+
+       
+      <div class="text-center mt-12">
+        <p class="text-gray-600 mb-4">Join our next batch and create your own portfolio of projects</p>
+        <a href="#pricing" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-3 px-8 rounded-xl shadow-lg transition">
+          Start Your Journey
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 6. COURSE PREVIEW (SLIDER) -->
+  <section class="py-20 bg-white" data-aos id="slider">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-4">Course Preview</h2>
+      <p class="text-center text-gray-600 mb-10">Take a look at what you'll learn in our comprehensive Python course</p>
+      <div class="relative bg-gray-100 rounded-3xl p-4">
+        <div class="overflow-hidden rounded-2xl">
+          <div class="flex transition-transform duration-500 ease-in-out" id="slider-container">
+            <img src="slides/1.jpg" alt="Course Slide 1" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/2.jpg" alt="Course Slide 2" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/3.jpg" alt="Course Slide 3" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/4.jpg" alt="Course Slide 4" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/5.jpg" alt="Course Slide 5" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/6.jpg" alt="Course Slide 6" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/7.jpg" alt="Course Slide 7" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/8.jpg" alt="Course Slide 8" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/9.jpg" alt="Course Slide 9" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/10.jpg" alt="Course Slide 10" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/11.jpg" alt="Course Slide 11" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/12.jpg" alt="Course Slide 12" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/13.jpg" alt="Course Slide 13" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/14.jpg" alt="Course Slide 14" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+            <img src="slides/15.jpg" alt="Course Slide 15" class="w-full h-[300px] md:h-[500px] object-contain flex-shrink-0">
+          </div>
+        </div>
+        <button class="absolute left-2 md:left-6 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white p-2 md:p-3 rounded-full shadow-lg text-xl md:text-2xl transition-all" onclick="prevSlide()">←</button>
+        <button class="absolute right-2 md:right-6 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white p-2 md:p-3 rounded-full shadow-lg text-xl md:text-2xl transition-all" onclick="nextSlide()">→</button>
+        <div class="absolute bottom-2 md:bottom-4 left-1/2 -translate-x-1/2 flex space-x-1 md:space-x-2" id="slider-dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6.5 QUOTES SECTION -->
+  <section class="py-16 bg-gradient-to-r from-slate-900 to-slate-800 text-white" data-aos id="quotes">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <div class="bg-white/10 backdrop-blur-sm p-8 md:p-12 rounded-3xl shadow-2xl border border-white/20">
+        <blockquote class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-relaxed">
+          A single enroll-button between you and coding freedom.
+        </blockquote>
+        <!-- Create a Enroll Now Button -->
+        <a href="#pricing" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-3 px-8 rounded-xl shadow-lg transition">
+          Enroll Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. REQUIREMENTS -->
+  <section class="py-20 bg-white" data-aos id="requirements">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-4">Requirements</h2>
+      <p class="text-center text-gray-600 mb-12">Everything you need to get started with Python programming</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-3xl shadow-lg text-center">
+          <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-blue-900">Computer with Internet</h3>
+          <p class="text-gray-700">A computer or laptop with a stable internet connection to access live classes and course materials</p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-3xl shadow-lg text-center">
+          <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-green-900">Interest to Learn</h3>
+          <p class="text-gray-700">A genuine curiosity and willingness to learn Python programming and explore new possibilities</p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-3xl shadow-lg text-center">
+          <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-purple-900">Dedication</h3>
+          <p class="text-gray-700">Commitment to attend classes regularly, complete assignments, and practice coding consistently</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. ABOUT THE COURSE -->
+  <section class="py-20 bg-gray-50" data-aos id="about">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-4">About the Course</h2>
+      <p class="text-center text-gray-600 mb-12">A comprehensive journey into the world of Python Programming</p>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition-shadow">
+          <h3 class="text-2xl font-semibold mb-6 text-emerald-600">What You'll Learn</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Master Python fundamentals and practical applications</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Learn to Use Python to Build Exciting Projects</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Learn web development with Django and Flask</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Develop desktop applications using Python</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Create a professional Python portfolio</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition-shadow">
+          <h3 class="text-2xl font-semibold mb-6 text-emerald-600">Course Format</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">30 days of live interactive sessions</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Daily 1-hour classes (6-7 PM NPT)</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Hands-on projects and assignments</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">24/7 community support</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Lifetime access to course materials</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. CURRICULUM SNAPSHOT -->
+  <section class="py-16 bg-gray-100" data-aos id="curriculum">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">Syllabus</h2>
+      <p class="text-center text-gray-600 mb-12">A comprehensive journey into the world of Python Programming</p>
+      <div class="grid md:grid-cols-2 gap-8 text-sm leading-6">
+        
+        <!-- Week 1: Python Fundamentals -->
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold mb-4 text-emerald-600">Week 1: Python Fundamentals</h3>
+          <ul class="list-disc list-inside space-y-2">
+            <li>Introduction to Python & Installation</li>
+            <li>Basic Python Program & Variables</li>
+            <li>Data Types & Type Conversion</li>
+            <li>Comments, Operators & User Input</li>
+            <li>Strings & Randomization</li>
+            <li>Code Blocks, Indentation & Clean Code</li>
+            <li>Pip & Virtual Environment</li>
+            <li>Conditional Statements & Assert</li>
+            <li>For Loops & While Loops</li>
+            <li>Break, Continue & Pass</li>
+            <li><strong>3 Practical Projects</strong></li>
+          </ul>
+        </div>
+
+        <!-- Week 2: Data Structures & Functions -->
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold mb-4 text-emerald-600">Week 2: Data Structures & Functions</h3>
+          <ul class="list-disc list-inside space-y-2">
+            <li>Lists & List Operations</li>
+            <li>Tuples & Immutable Data</li>
+            <li>Sets & Set Operations</li>
+            <li>Dictionaries & Key-Value Pairs</li>
+            <li>List & Dictionary Comprehension</li>
+            <li>Function Definition & Calling</li>
+            <li>Function Parameters & Arguments</li>
+            <li>Variable Scope & Namespaces</li>
+            <li>Math Functions & Operations</li>
+            <li>Lambda Functions & Decorators</li>
+            <li><strong>3 Practical Projects</strong></li>
+          </ul>
+        </div>
+
+        <!-- Week 3: OOP & GUI Development -->
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold mb-4 text-emerald-600">Week 3: OOP & GUI Development</h3>
+          <ul class="list-disc list-inside space-y-2">
+            <li>Classes & Objects</li>
+            <li>Working with Multiple Files</li>
+            <li>Constructors & Initialization</li>
+            <li>Encapsulation & Access Modifiers</li>
+            <li>Getter & Setter Methods</li>
+            <li>Inheritance & Super Keyword</li>
+            <li>Polymorphism & Method Overriding</li>
+            <li>Introduction to Tkinter</li>
+            <li>Creating GUI Applications</li>
+            <li>Widgets & Event Handling</li>
+            <li><strong>3 Practical Projects</strong></li>
+          </ul>
+        </div>
+
+        <!-- Week 4: Advanced Topics & Real-World Apps -->
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold mb-4 text-emerald-600">Week 4: Advanced Topics & Real-World Apps</h3>
+          <ul class="list-disc list-inside space-y-2">
+            <li>Modules & Libraries</li>
+            <li>Exception Handling</li>
+            <li>File Operations & CSV Processing</li>
+            <li>Working with JSON & XML</li>
+            <li>Debugging & Date/Time</li>
+            <li>HTTP Requests & REST APIs</li>
+            <li>Web Automation & Scraping</li>
+            <li>Database Operations (SQLite)</li>
+            <li>Real-World App: To-Do List</li>
+            <li>Portfolio Project Development</li>
+            <li><strong>3 Practical Projects</strong></li>
+          </ul>
+        </div>
+
+      </div>
+      
+      <div class="text-center mt-12">
+        <p class="text-lg font-semibold text-gray-800 mb-4">Total: <strong>12+ Practical Projects</strong> + Real-World Applications</p>
+        <p class="text-sm text-gray-600 mb-4">30 Days • Daily 1-Hour Sessions • Hands-On Learning</p>
+        <a href="#pricing" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-3 px-8 rounded-xl shadow-lg transition">
+          Start Your Python Journey
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9.5 BONUS SECTION -->
+  <section class="py-16 bg-gradient-to-br from-purple-50 to-indigo-50" data-aos id="bonus">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-4">🎁 Exclusive Bonuses Worth Rs 13,000</h2>
+      <p class="text-center text-gray-600 mb-12">Get these premium bonuses absolutely FREE when you enroll in our Python course</p>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Bonus 1: Git and GitHub -->
+        <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div class="text-center mb-4">
+            <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Git & GitHub Training</h3>
+            <p class="text-2xl font-bold text-orange-600 mb-2">Worth Rs 2,500</p>
+          </div>
+          <ul class="text-sm text-gray-600 space-y-2">
+            <li class="flex items-start">
+              <span class="text-orange-500 mr-2">✓</span>
+              <span>Version Control Mastery</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange-500 mr-2">✓</span>
+              <span>Collaborative Development</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-orange-500 mr-2">✓</span>
+              <span>Project Portfolio Building</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Bonus 2: Prompt Engineering -->
+        <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div class="text-center mb-4">
+            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Prompt Engineering Training</h3>
+            <p class="text-2xl font-bold text-blue-600 mb-2">Worth Rs 5,500</p>
+          </div>
+          <ul class="text-sm text-gray-600 space-y-2">
+            <li class="flex items-start">
+              <span class="text-blue-500 mr-2">✓</span>
+              <span>AI Communication Skills</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-blue-500 mr-2">✓</span>
+              <span>ChatGPT & AI Tools Mastery</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-blue-500 mr-2">✓</span>
+              <span>Future-Proof Your Career</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Bonus 3: AI Training Recorded Class -->
+        <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div class="text-center mb-4">
+            <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">AI Training Recorded Class</h3>
+            <p class="text-2xl font-bold text-purple-600 mb-2">Worth Rs 5,000</p>
+          </div>
+          <ul class="text-sm text-gray-600 space-y-2">
+            <li class="flex items-start">
+              <span class="text-purple-500 mr-2">✓</span>
+              <span>Comprehensive AI Knowledge</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-purple-500 mr-2">✓</span>
+              <span>Lifetime Access</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-purple-500 mr-2">✓</span>
+              <span>Industry Best Practices</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Bonus 4: Basic Django Training -->
+        <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div class="text-center mb-4">
+            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9m0 9c-5 0-9-4-9-9s4-9 9-9"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Basic Django Training</h3>
+            <p class="text-2xl font-bold text-green-600 mb-2">Premium Bonus</p>
+          </div>
+          <ul class="text-sm text-gray-600 space-y-2">
+            <li class="flex items-start">
+              <span class="text-green-500 mr-2">✓</span>
+              <span>Web Framework Mastery</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-green-500 mr-2">✓</span>
+              <span>Full-Stack Development</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-green-500 mr-2">✓</span>
+              <span>Professional Web Apps</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-12">
+        <div class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white p-8 rounded-3xl shadow-xl">
+          <h3 class="text-2xl font-bold mb-4">Total Bonus Value: <span class="text-yellow-300">Rs 13,000</span></h3>
+          <p class="text-lg mb-6">These bonuses are yours absolutely FREE when you enroll in our Python course!</p>
+          <a href="#pricing" class="inline-block bg-yellow-400 hover:bg-yellow-500 text-purple-900 font-bold py-3 px-8 rounded-xl shadow-lg transition transform hover:scale-105">
+            🎁 Claim Your Free Bonuses
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9.5 WHAT YOU'LL GAIN -->
+  <section class="py-16 bg-white" data-aos id="benefits">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">Before and After Training</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-red-50 p-8 rounded-3xl shadow-lg">
+          <h3 class="text-2xl font-semibold mb-6 text-red-600">Before Training</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <span class="text-red-500 mr-3 text-xl">✗</span>
+              <span class="text-gray-700">Confused about programming</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-red-500 mr-3 text-xl">✗</span>
+              <span class="text-gray-700">Don't know how to code</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-red-500 mr-3 text-xl">✗</span>
+              <span class="text-gray-700">Fear of being left behind</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-red-500 mr-3 text-xl">✗</span>
+              <span class="text-gray-700">No real projects</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-red-500 mr-3 text-xl">✗</span>
+              <span class="text-gray-700">Lack of Confidence</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-emerald-50 p-8 rounded-3xl shadow-lg">
+          <h3 class="text-2xl font-semibold mb-6 text-emerald-600">After Training</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Talk Programming Confidently</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Master Python Programming</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Confidently Code In Python</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Automate With Python</span>
+            </li>
+             <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Open Gate To New Opportunities</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. VALUE STACK -->
+  <section class="py-16" data-aos id="value">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">Everything You Get</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="font-semibold text-lg mb-2">Live Classes</h3>
+          <p>30 hours of instructor-led sessions + Q&A replays for life.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="font-semibold text-lg mb-2">13 Hands-On Projects</h3>
+          <p>Portfolio-ready Python apps and scripts to impress employers.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="font-semibold text-lg mb-2">Pro Certificate</h3>
+          <p>Official Certificate From Technology Channel </p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. TESTIMONIALS -->
+  <section class="py-16" data-aos id="testimonials">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10">Success Stories</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <p class="italic mb-4">"I learned Python programming which enhanced my productivity to build any kind of apps, software and websites etc."</p>
+          <p class="font-semibold">— Pema Lamu Sherpa, Student</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <p class="italic mb-4">"The projects boosted my freelance income by 2× clients love my speed."</p>
+          <p class="font-semibold">— Sajina Rayamaji, Freelancer</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <p class="italic mb-4">"Finally understood Python programming in Nepali! Bishworaj makes complex topics simple."</p>
+          <p class="font-semibold">— Prakash Thapa, QA Engineer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11.5 WHAT PEOPLE LOVE ABOUT OUR TRAINING -->
+  <section class="py-16 bg-gradient-to-br from-blue-50 to-indigo-50" data-aos id="what-people-love">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-4">What People Love About Our Training</h2>
+      <p class="text-center text-gray-600 mb-12">Discover why our students consistently rate our program as exceptional</p>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Practical Application -->
+        <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-semibold text-gray-800">Practical Application</h3>
+          </div>
+          <p class="text-gray-700 mb-4">Participants valued creating daily useful projects, including:</p>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Professional websites and portfolios</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Desktop software applications</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Mobile apps and games</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Workflow automation tools</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">All with step-by-step Python guidance</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Instructor Quality -->
+        <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-semibold text-gray-800">Instructor Quality</h3>
+          </div>
+          <p class="text-gray-700 mb-4">The friendly and helpful teacher was a significant positive aspect:</p>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <span class="text-blue-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Patient and encouraging teaching style</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-blue-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Always available for questions and support</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-blue-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Makes complex topics simple to understand</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-blue-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Real-world experience and practical insights</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-blue-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Teaches in simple Nepali language</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Additional Benefits -->
+      <div class="mt-12 grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-2xl shadow-lg text-center">
+          <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h4 class="font-semibold text-lg mb-2">Flexible Learning</h4>
+          <p class="text-gray-600 text-sm">Learn at your own pace with recorded sessions and lifetime access</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-lg text-center">
+          <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+          </div>
+          <h4 class="font-semibold text-lg mb-2">Community Support</h4>
+          <p class="text-gray-600 text-sm">24/7 access to our supportive community of learners and experts</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-lg text-center">
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h4 class="font-semibold text-lg mb-2">Proven Results</h4>
+          <p class="text-gray-600 text-sm">Students consistently achieve their goals and increase their income</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-12">
+        <p class="text-xl font-semibold text-gray-800 mb-4">Join hundreds of satisfied students who love our Python training approach</p>
+        <a href="#pricing" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-3 px-8 rounded-xl shadow-lg transition">
+          Experience It Yourself
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. PRICING & GUARANTEE -->
+  <section class="py-16 bg-emerald-50" data-aos id="pricing">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-4">Choose Your Python Journey</h2>
+      <p class="text-center text-gray-600 mb-12">Select the perfect plan that matches your goals and budget</p>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Starter Plan -->
+        <div class="bg-white rounded-3xl shadow-lg p-8 relative">
+          <div class="text-center mb-6">
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">Starter</h3>
+            <div class="text-4xl font-bold text-emerald-600 mb-2">Rs 5,000</div>
+            <p class="text-gray-600 text-sm">Perfect for beginners, students & teachers</p>
+          </div>
+          
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">30 days of live interactive sessions</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">13 hands-on projects for portfolio</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Lifetime access to course materials</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Community support</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Professional certificate</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-emerald-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Basic Python programming training</span>
+            </li>
+          </ul>
+          
+          <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-xl transition text-center block">
+            Start Learning
+          </a>
+        </div>
+
+        <!-- Pro Plan -->
+        <div class="bg-gradient-to-br from-emerald-500 to-green-600 rounded-3xl shadow-xl p-8 relative transform scale-105">
+          <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+            <span class="bg-red-500 text-white px-4 py-1 rounded-full text-sm font-bold">Recommended</span>
+          </div>
+          
+          <div class="text-center mb-6">
+            <h3 class="text-2xl font-bold text-white mb-2">Pro</h3>
+            <div class="text-4xl font-bold text-white mb-2">Rs 10,000</div>
+            <p class="text-emerald-100 text-sm">For business owners & entrepreneurs</p>
+          </div>
+          
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-start">
+              <span class="text-white mr-3 text-xl">✓</span>
+              <span class="text-white">Everything in Starter +</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-white mr-3 text-xl">✓</span>
+              <span class="text-white">Advanced Python automation training</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-white mr-3 text-xl">✓</span>
+              <span class="text-white">Python libraries and tools included</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-white mr-3 text-xl">✓</span>
+              <span class="text-white">6-month cloud platform access</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-white mr-3 text-xl">✓</span>
+              <span class="text-white">Premium development tools</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-white mr-3 text-xl">✓</span>
+              <span class="text-white">Priority community support</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-white mr-3 text-xl">✓</span>
+              <span class="text-white">Business automation strategies</span>
+            </li>
+          </ul>
+          
+          <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="w-full bg-white hover:bg-gray-100 text-emerald-600 font-bold py-3 px-6 rounded-xl transition text-center block">
+            🚀 Start Learning
+          </a>
+        </div>
+
+        <!-- One on One Plan -->
+        <div class="bg-white rounded-3xl shadow-lg p-8 relative">
+          <div class="text-center mb-6">
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">One on One</h3>
+            <div class="text-4xl font-bold text-purple-600 mb-2">Rs 35,000</div>
+            <p class="text-gray-600 text-sm">Personalized guidance & mentoring</p>
+          </div>
+          
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-start">
+              <span class="text-purple-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Everything in Pro +</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-purple-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">1-on-1 personalized sessions</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-purple-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Custom project development</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-purple-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Direct mentor access</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-purple-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Career guidance & planning</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-purple-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Portfolio review & optimization</span>
+            </li>
+            <li class="flex items-start">
+              <span class="text-purple-500 mr-3 text-xl">✓</span>
+              <span class="text-gray-700">Mentorship support</span>
+            </li>
+          </ul>
+          
+          <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-xl transition text-center block">
+            Get Personal Mentoring
+          </a>
+        </div>
+      </div>
+      
+      <div class="text-center mt-12">
+        <p class="text-lg font-semibold text-gray-800 mb-4">All plans include 7-Day "Love it or Money Back" Guarantee</p>
+        <p class="text-sm text-gray-600">Still unsure? <a href="#footer" class="text-emerald-600 hover:text-emerald-700 underline">Contact us for a free consultation</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 13. FAQ -->
+  <section class="py-16 bg-gray-100" data-aos id="faq">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        <details class="bg-white p-4 rounded-2xl shadow">
+          <summary class="font-medium cursor-pointer">I am from a non-technical background. Can I join it?</summary>
+          <p class="mt-2 text-sm text-gray-600">Absolutely! If you know basic computer knowledge, you're good to go. We start from the very basics and guide you step by step. Our teaching method is designed for everyone - no complex technical jargon, just practical learning in simple Nepali language.</p>
+        </details>
+        <details class="bg-white p-4 rounded-2xl shadow">
+          <summary class="font-medium cursor-pointer">What if I miss a class?</summary>
+          <p class="mt-2 text-sm text-gray-600">No worries at all! Every class is recorded and uploaded the same night. You can watch it anytime, anywhere. Plus, you get lifetime access to all recordings. Many students actually prefer watching recordings as they can pause, rewind, and learn at their own pace!</p>
+        </details>
+        <details class="bg-white p-4 rounded-2xl shadow">
+          <summary class="font-medium cursor-pointer">How do I pay?</summary>
+          <p class="mt-2 text-sm text-gray-600">We've made payment super easy! You can pay through:
+            <ul class="list-disc list-inside mt-2">
+              <li>Mobile Banking (Khalti, eSewa)</li>
+              <li>Bank Transfer</li>
+              <li>Cash Payment (Kathmandu)</li>
+            </ul>
+            Just fill the registration form, and we'll send you the payment details right away!</p>
+        </details>
+        <details class="bg-white p-4 rounded-2xl shadow">
+          <summary class="font-medium cursor-pointer">Is the certificate recognized?</summary>
+          <p class="mt-2 text-sm text-gray-600">Yes! Technology Channel is a registered educational institution in Nepal. Our certificate is recognized and valued by employers. Many of our students have used this certificate to land jobs and freelance projects. Plus, you'll have real Python projects in your portfolio to showcase your skills!</p>
+        </details>
+        <details class="bg-white p-4 rounded-2xl shadow">
+          <summary class="font-medium cursor-pointer">What's included in the course?</summary>
+          <p class="mt-2 text-sm text-gray-600">We offer 3 different plans to match your needs:
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Starter (Rs 5,000):</strong> Perfect for beginners, students & teachers</li>
+              <li><strong>Pro (Rs 10,000):</strong> For business owners & entrepreneurs with Python libraries & automation tools</li>
+              <li><strong>One on One (Rs 35,000):</strong> Personalized mentoring with direct mentor access</li>
+            </ul>
+            All plans include 30 days of live classes, 13 hands-on projects, lifetime access, professional certificate, and 7-day money-back guarantee.
+          </p>
+        </details>
+        <details class="bg-white p-4 rounded-2xl shadow">
+          <summary class="font-medium cursor-pointer">Do you offer refunds?</summary>
+          <p class="mt-2 text-sm text-gray-600">Yes! We're so confident in our course that we offer a 7-day 'Love-it-or-Refund' guarantee. If you're not satisfied with the first week, we'll refund your payment - no questions asked. Your success is our priority!</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 14. FINAL CTA -->
+  <section class="py-20 bg-slate-900 text-white text-center" data-aos>
+    <h2 class="text-3xl md:text-4xl font-extrabold mb-6">Don't Let Technology Pass You By. <span class="text-emerald-400">Learn to Code WITH Python</span></h2>
+    <p class="mb-8 text-lg">Join 200+ learners and <strong>increase your chance of success</strong> with Python skills.</p>
+    
+          <a href="#pricing" class="inline-block bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 text-white text-xl font-bold py-4 px-10 rounded-2xl shadow-2xl transition-all transform hover:scale-105">
+        🚀 Secure Your Python Future
+      </a>
+    <p class="mt-4 text-sm opacity-80">🔥 Limited Seats Available</p>
+    <p class="mt-2 text-xs opacity-60">7-Day Money-Back Guarantee • Lifetime Access • 24/7 Support</p>
+  </section>
+
+  <!-- 15. FOOTER -->
+  <footer class="py-12 bg-gray-800 text-gray-400 text-center" id="footer">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="mb-8">
+        <h4 class="text-xl font-semibold text-white mb-2">Still Have Questions?</h4>
+        <p class="text-base mb-4">We're here to help! Click below to chat on WhatsApp or send us an email.</p>
+        <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+          <a href="https://wa.me/9779805832889" target="_blank" class="inline-flex items-center bg-green-500 hover:bg-green-600 text-white text-lg font-semibold py-2 px-6 rounded-lg shadow-md transition">
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.75 13.96c.25.13.41.36.41.62v1.11c0 .24-.14.45-.36.56-1.07.54-2.26.82-3.51.82-4.42 0-8-3.58-8-8s3.58-8 8-8c1.21 0 2.37.27 3.42.77.22.11.37.33.37.57v1.1c0 .28-.18.53-.45.63-1.12.44-2.32.67-3.59.67-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5c0 1.28-.48 2.46-1.29 3.36-.1.11-.15.25-.15.39v1.11c0 .24.14.45.36.56z M12 4C7.58 4 4 7.58 4 12s3.58 8 8 8c1.35 0 2.64-.35 3.8-.95l1.63.81c.28.14.61.04.79-.19s.18-.51.04-.79l-.81-1.63c.6-1.16.95-2.45.95-3.8 0-4.42-3.58-8-8-8zm0 9.5c-.28 0-.5-.22-.5-.5V7c0-.28.22-.5.5-.5s.5.22.5.5v5c0 .28-.22.5-.5.5zm0 2.5c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
+            </svg>
+            Chat on WhatsApp
+          </a>
+          <a href="mailto:info@technologychannel.org" class="inline-flex items-center text-gray-300 hover:text-white transition">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+            info@technologychannel.org
+          </a>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 pt-8">
+        <div class="mb-4 text-sm">
+          © 2025 <a href="https://technologychannel.org/" target="_blank" class="hover:text-white transition">Technology Channel</a>. All rights reserved.
+        </div>
+        <div class="flex justify-center space-x-4">
+          <a href="https://www.facebook.com/technologychannel.org" target="_blank" class="hover:text-white transition">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+            </svg>
+          </a>
+          <a href="https://www.youtube.com/technologychannel" target="_blank" class="hover:text-white transition">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd" d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.78 22 12 22 12s0 3.22-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.594.418-7.814.418-7.814.418s-6.22 0-7.814-.418a2.505 2.505 0 0 1-1.768-1.768C5.78 5 12 5 12 5s6.22 0 7.814.418ZM9.545 15.568V8.432L15.818 12l-6.273 3.568Z" clip-rule="evenodd" />
+            </svg>
+          </a>
+          <!-- Add other social links here if needed -->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AOS SCRIPT -->
+  <script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    function revealOnScroll(){
+      document.querySelectorAll('[data-aos]').forEach(el=>{
+        const rect = el.getBoundingClientRect();
+        if(rect.top < window.innerHeight-100) el.classList.add('aos-animate');
+      });
+    }
+    revealOnScroll();
+    window.addEventListener('scroll', revealOnScroll);
+
+    // Slider functionality
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('#slider-container img');
+    const totalSlides = slides.length;
+    const dotsContainer = document.getElementById('slider-dots');
+
+    // Create dots
+    slides.forEach((_, index) => {
+      const dot = document.createElement('button');
+      dot.classList.add('w-2', 'h-2', 'rounded-full', 'bg-gray-300', 'transition-all');
+      dot.onclick = () => goToSlide(index);
+      dotsContainer.appendChild(dot);
+    });
+
+    function updateSlider() {
+      const container = document.getElementById('slider-container');
+      container.style.transform = `translateX(-${currentSlide * 100}%)`;
+      
+      // Update dots
+      document.querySelectorAll('#slider-dots button').forEach((dot, index) => {
+        dot.classList.toggle('bg-emerald-500', index === currentSlide);
+        dot.classList.toggle('w-4', index === currentSlide);
+      });
+    }
+
+    function goToSlide(index) {
+      currentSlide = index;
+      updateSlider();
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % totalSlides;
+      updateSlider();
+    }
+
+    function prevSlide() {
+      currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+      updateSlider();
+    }
+
+    // Auto-advance slides every 5 seconds
+    setInterval(nextSlide, 5000);
+
+    // Video Slider Functionality (If applicable, otherwise remove)
+    // Assuming #video-slider-container exists elsewhere
+    const videoSliderContainer = document.getElementById('video-slider-container');
+    if (videoSliderContainer) {
+      let currentVideoSlide = 0;
+      const videoSlides = document.querySelectorAll('#video-slider-container > div');
+      const totalVideoSlides = videoSlides.length;
+      const videoDotsContainer = document.getElementById('video-slider-dots');
+
+      // Create video dots
+      if (videoDotsContainer) {
+          videoSlides.forEach((_, index) => {
+            const dot = document.createElement('button');
+            dot.classList.add('w-2', 'h-2', 'rounded-full', 'bg-gray-400', 'hover:bg-gray-500', 'transition-all');
+            dot.onclick = () => goToVideoSlide(index);
+            videoDotsContainer.appendChild(dot);
+          });
+          updateVideoSlider(); // Initialize dots
+      }
+
+      function updateVideoSlider() {
+        const container = document.getElementById('video-slider-container');
+        container.style.transform = `translateX(-${currentVideoSlide * 100}%)`;
+        
+        // Update video dots
+        if (videoDotsContainer) {
+          document.querySelectorAll('#video-slider-dots button').forEach((dot, index) => {
+            dot.classList.toggle('bg-emerald-600', index === currentVideoSlide);
+            dot.classList.toggle('w-4', index === currentVideoSlide);
+            dot.classList.toggle('bg-gray-400', index !== currentVideoSlide);
+          });
+        }
+        
+        // Pause all videos when sliding (basic approach)
+        document.querySelectorAll('#video-slider-container iframe').forEach(iframe => {
+          iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+        });
+      }
+
+      function goToVideoSlide(index) {
+        currentVideoSlide = index;
+        updateVideoSlider();
+      }
+
+      function nextVideoSlide() {
+        currentVideoSlide = (currentVideoSlide + 1) % totalVideoSlides;
+        updateVideoSlider();
+      }
+
+      function prevVideoSlide() {
+        currentVideoSlide = (currentVideoSlide - 1 + totalVideoSlides) % totalVideoSlides;
+        updateVideoSlider();
+      }
+    } // End if videoSliderContainer
+
+    // Simple Click-to-Load YouTube Player for Hero Section
+    document.addEventListener('DOMContentLoaded', function() {
+        const videoPlaceholder = document.getElementById('video-placeholder');
+        const videoId = 'RH_LLlzUdgY';
+
+        if (videoPlaceholder) {
+            videoPlaceholder.addEventListener('click', function() {
+                // console.log('Placeholder clicked, loading video...'); // For debugging
+                videoPlaceholder.innerHTML = `
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full"
+                        src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&mute=0" 
+                        title="Learn Python in Nepali - Course Introduction" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>`;
+            }, { once: true }); // Use { once: true } so it only runs once
+        } else {
+             // console.error('Video placeholder element not found'); // For debugging
+        }
+    });
+
+    // Lightbox functionality
+    function openLightbox(imageSrc) {
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightboxImg.src = imageSrc;
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden'; // Prevent scrolling when lightbox is open
+    }
+
+    function closeLightbox() {
+      const lightbox = document.getElementById('lightbox');
+      lightbox.classList.remove('active');
+      document.body.style.overflow = ''; // Restore scrolling
+    }
+
+    // Close lightbox when clicking outside the image
+    document.getElementById('lightbox').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+
+    // Add click handlers to all gallery items
+    document.addEventListener('DOMContentLoaded', function() {
+      const galleryItems = document.querySelectorAll('.gallery-item');
+      galleryItems.forEach(item => {
+        item.addEventListener('click', function() {
+          const imgSrc = this.querySelector('img').src;
+          openLightbox(imgSrc);
+        });
+      });
+    });
+
+  </script>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close" onclick="closeLightbox()">×</button>
+    <img id="lightbox-img" src="" alt="Full size image">
+  </div>
+
+  <!-- Add this script before </body> to make the countdown work -->
+  <script>
+    // Countdown target date: August 4, 2025, 7:00 PM NPT (UTC+5:45)
+    const countdownTarget = new Date('2025-08-04T19:00:00+05:45').getTime();
+    const daysSpan = document.getElementById('days');
+    const hoursSpan = document.getElementById('hours');
+    const minutesSpan = document.getElementById('minutes');
+    const secondsSpan = document.getElementById('seconds');
+    const message = document.getElementById('countdown-message');
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      let distance = countdownTarget - now;
+      if (distance < 0) {
+        daysSpan.textContent = '00';
+        hoursSpan.textContent = '00';
+        minutesSpan.textContent = '00';
+        secondsSpan.textContent = '00';
+        message.classList.remove('hidden');
+        message.textContent = '🚀 The next batch has started!';
+        return;
+      }
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      daysSpan.textContent = String(days).padStart(2, '0');
+      hoursSpan.textContent = String(hours).padStart(2, '0');
+      minutesSpan.textContent = String(minutes).padStart(2, '0');
+      secondsSpan.textContent = String(seconds).padStart(2, '0');
+    }
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+  </script>
+
+  <!-- Add this before closing body tag -->
+  <div id="notification" class="notification"></div>
+
+  <script>
+    // Recent Students Notification System
+    const students = [
+      { name: "", location: "Jajarkot" },
+      { name: "", location: "Melamchi" },
+      { name: "", location: "Melamchi" },
+      { name: "", location: "Kapilvastu" },
+      { name: "", location: "Chitwan" },
+      { name: "", location: "Dahalgau" },
+      { name: "", location: "Kathmandu" },
+      { name: "", location: "Morang" },
+      { name: "", location: "Kathmandu" },
+      { name: "", location: "Kathmandu" },
+      { name: "", location: "Nakhipot-14 Lalitpur" },
+      { name: "", location: "Kathmandu" },
+      { name: "", location: "Pokhara" }
+    ];
+
+    function showNotification() {
+      const notification = document.getElementById('notification');
+      const randomStudent = students[Math.floor(Math.random() * students.length)];
+      
+      notification.textContent = `Someone from ${randomStudent.location} recently registered for the course.`;
+      notification.classList.add('show');
+      
+      setTimeout(() => {
+        notification.classList.remove('show');
+        notification.classList.add('hide');
+      }, 5000);
+    }
+
+    // Show first notification after 20 seconds
+    setTimeout(() => {
+      showNotification();
+      // Then show notifications every 2 minutes
+      setInterval(showNotification, 120000);
+    }, 20000);
+
+  </script>
+
+  <!-- AI Tools Slider Script -->
+  <script>
+    // AI Tools Slider functionality
+    let currentAiToolsSlide = 0;
+    const aiToolsSlides = document.querySelectorAll('#ai-tools-slider img');
+    const totalAiToolsSlides = aiToolsSlides.length;
+    const aiToolsDotsContainer = document.getElementById('ai-tools-dots');
+
+    // Create AI Tools dots
+    if (aiToolsDotsContainer) {
+      aiToolsSlides.forEach((_, index) => {
+        const dot = document.createElement('button');
+        dot.classList.add('w-2', 'h-2', 'rounded-full', 'bg-gray-300', 'transition-all');
+        dot.onclick = () => goToAiToolsSlide(index);
+        aiToolsDotsContainer.appendChild(dot);
+      });
+      updateAiToolsSlider(); // Initialize dots
+    }
+
+    function updateAiToolsSlider() {
+      const container = document.getElementById('ai-tools-slider');
+      if (container) {
+        container.style.transform = `translateX(-${currentAiToolsSlide * 100}%)`;
+        
+        // Update dots
+        if (aiToolsDotsContainer) {
+          document.querySelectorAll('#ai-tools-dots button').forEach((dot, index) => {
+            dot.classList.toggle('bg-emerald-500', index === currentAiToolsSlide);
+            dot.classList.toggle('w-4', index === currentAiToolsSlide);
+          });
+        }
+      }
+    }
+
+    function goToAiToolsSlide(index) {
+      currentAiToolsSlide = index;
+      updateAiToolsSlider();
+    }
+
+    function nextAiToolsSlide() {
+      currentAiToolsSlide = (currentAiToolsSlide + 1) % totalAiToolsSlides;
+      updateAiToolsSlider();
+    }
+
+    // Auto-advance AI Tools slides every 3 seconds
+    setInterval(nextAiToolsSlide, 3000);
+  </script>
+</body>
+</html>
