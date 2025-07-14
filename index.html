@@ -90,6 +90,57 @@
 </head>
 
 <body class="bg-gray-50 text-gray-800 leading-relaxed">
+  <!-- NAVIGATION -->
+  <nav class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex justify-between items-center py-4">
+        <!-- Logo -->
+        <div class="flex items-center">
+          <a href="#hero" class="text-2xl font-bold text-emerald-600">
+            Python Training
+          </a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="#hero" class="text-gray-700 hover:text-emerald-600 transition duration-300 font-medium">Home</a>
+          <a href="#why" class="text-gray-700 hover:text-emerald-600 transition duration-300 font-medium">Why Python</a>
+          <a href="#mentor" class="text-gray-700 hover:text-emerald-600 transition duration-300 font-medium">Mentor</a>
+          <a href="#gallery" class="text-gray-700 hover:text-emerald-600 transition duration-300 font-medium">What You'll Do</a>
+          <a href="#curriculum" class="text-gray-700 hover:text-emerald-600 transition duration-300 font-medium">Curriculum</a>
+          <a href="#faq" class="text-gray-700 hover:text-emerald-600 transition duration-300 font-medium">FAQ</a>
+          <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2 rounded-lg font-semibold transition duration-300">
+            Register Now
+          </a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="md:hidden">
+          <button id="mobile-menu-button" class="text-gray-700 hover:text-emerald-600 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <div id="mobile-menu" class="md:hidden hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1 bg-white border-t">
+          <a href="#hero" class="block px-3 py-2 text-gray-700 hover:text-emerald-600 hover:bg-gray-50 rounded-md font-medium">Home</a>
+          <a href="#why" class="block px-3 py-2 text-gray-700 hover:text-emerald-600 hover:bg-gray-50 rounded-md font-medium">Why Python</a>
+          <a href="#mentor" class="block px-3 py-2 text-gray-700 hover:text-emerald-600 hover:bg-gray-50 rounded-md font-medium">Mentor</a>
+          <a href="#gallery" class="block px-3 py-2 text-gray-700 hover:text-emerald-600 hover:bg-gray-50 rounded-md font-medium">What You'll Do</a>
+          <a href="#curriculum" class="block px-3 py-2 text-gray-700 hover:text-emerald-600 hover:bg-gray-50 rounded-md font-medium">Curriculum</a>
+          <a href="#faq" class="block px-3 py-2 text-gray-700 hover:text-emerald-600 hover:bg-gray-50 rounded-md font-medium">FAQ</a>
+          <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="block px-3 py-2 bg-emerald-500 hover:bg-emerald-600 text-white rounded-md font-semibold text-center">
+            Register Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <!-- 1. HERO -->
   <section class="bg-slate-900 text-white py-20" data-aos id="hero">
     <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
@@ -103,8 +154,8 @@
           Learn to <span class="underline decoration-indigo-400">Coding in Nepali</span>, build real projects & start your programming journey with
           <strong><a href="https://bishworajpoudel.com/" target="_blank" class="hover:text-indigo-400 transition">Bishworaj Poudel</a></strong>. Only Python training that you need.
         </p>
-        <a href="#pricing" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-4 px-8 rounded-2xl shadow-xl transition">
-          🔒Register Now
+        <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-4 px-8 rounded-2xl shadow-xl transition">
+          🔒Register Now Rs 5,000
         </a>
         <p class="mt-4 text-sm opacity-80">
           Next batch: <strong>August 4 – September 5, 2025</strong> | Daily 6-7 PM NPT (Mon-Fri)
@@ -205,7 +256,7 @@
       
       <div class="mt-8 text-center">
         <p class="text-xl font-semibold text-gray-800 mb-4">Your today’s action  <span class="text-emerald-600">writes tomorrow’s headlines.</span></p>
-        <a href="#pricing" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-3 px-8 rounded-xl shadow-lg transition">
+        <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-3 px-8 rounded-xl shadow-lg transition">
           Start Your Python Journey Today
         </a>
       </div>
@@ -317,7 +368,7 @@
        
       <div class="text-center mt-12">
         <p class="text-gray-600 mb-4">Join our next batch and create your own portfolio of projects</p>
-        <a href="#pricing" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-3 px-8 rounded-xl shadow-lg transition">
+        <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-3 px-8 rounded-xl shadow-lg transition">
           Start Your Journey
         </a>
       </div>
@@ -555,7 +606,7 @@
       <div class="text-center mt-12">
         <p class="text-lg font-semibold text-gray-800 mb-4">Total: <strong>12+ Practical Projects</strong> + Real-World Applications</p>
         <p class="text-sm text-gray-600 mb-4">30 Days • Daily 1-Hour Sessions • Hands-On Learning</p>
-        <a href="#pricing" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-3 px-8 rounded-xl shadow-lg transition">
+        <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-3 px-8 rounded-xl shadow-lg transition">
           Start Your Python Journey
         </a>
       </div>
@@ -684,7 +735,7 @@
         <div class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white p-8 rounded-3xl shadow-xl">
           <h3 class="text-2xl font-bold mb-4">Total Bonus Value: <span class="text-yellow-300">Rs 13,000</span></h3>
           <p class="text-lg mb-6">These bonuses are yours absolutely FREE when you enroll in our Python course!</p>
-          <a href="#pricing" class="inline-block bg-yellow-400 hover:bg-yellow-500 text-purple-900 font-bold py-3 px-8 rounded-xl shadow-lg transition transform hover:scale-105">
+          <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="inline-block bg-yellow-400 hover:bg-yellow-500 text-purple-900 font-bold py-3 px-8 rounded-xl shadow-lg transition transform hover:scale-105">
             🎁 Claim Your Free Bonuses
           </a>
         </div>
@@ -908,159 +959,14 @@
 
       <div class="text-center mt-12">
         <p class="text-xl font-semibold text-gray-800 mb-4">Join hundreds of satisfied students who love our Python training approach</p>
-        <a href="#pricing" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-3 px-8 rounded-xl shadow-lg transition">
+        <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-lg font-semibold py-3 px-8 rounded-xl shadow-lg transition">
           Experience It Yourself
         </a>
       </div>
     </div>
   </section>
 
-  <!-- 12. PRICING & GUARANTEE -->
-  <section class="py-16 bg-emerald-50" data-aos id="pricing">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-3xl font-bold text-center mb-4">Choose Your Python Journey</h2>
-      <p class="text-center text-gray-600 mb-12">Select the perfect plan that matches your goals and budget</p>
-      
-      <div class="grid md:grid-cols-3 gap-8">
-        <!-- Starter Plan -->
-        <div class="bg-white rounded-3xl shadow-lg p-8 relative">
-          <div class="text-center mb-6">
-            <h3 class="text-2xl font-bold text-gray-800 mb-2">Starter</h3>
-            <div class="text-4xl font-bold text-emerald-600 mb-2">Rs 5,000</div>
-            <p class="text-gray-600 text-sm">Perfect for beginners, students & teachers</p>
-          </div>
-          
-          <ul class="space-y-4 mb-8">
-            <li class="flex items-start">
-              <span class="text-emerald-500 mr-3 text-xl">✓</span>
-              <span class="text-gray-700">30 days of live interactive sessions</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-emerald-500 mr-3 text-xl">✓</span>
-              <span class="text-gray-700">13 hands-on projects for portfolio</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-emerald-500 mr-3 text-xl">✓</span>
-              <span class="text-gray-700">Lifetime access to course materials</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-emerald-500 mr-3 text-xl">✓</span>
-              <span class="text-gray-700">Community support</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-emerald-500 mr-3 text-xl">✓</span>
-              <span class="text-gray-700">Professional certificate</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-emerald-500 mr-3 text-xl">✓</span>
-              <span class="text-gray-700">Basic Python programming training</span>
-            </li>
-          </ul>
-          
-          <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-xl transition text-center block">
-            Start Learning
-          </a>
-        </div>
 
-        <!-- Pro Plan -->
-        <div class="bg-gradient-to-br from-emerald-500 to-green-600 rounded-3xl shadow-xl p-8 relative transform scale-105">
-          <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
-            <span class="bg-red-500 text-white px-4 py-1 rounded-full text-sm font-bold">Recommended</span>
-          </div>
-          
-          <div class="text-center mb-6">
-            <h3 class="text-2xl font-bold text-white mb-2">Pro</h3>
-            <div class="text-4xl font-bold text-white mb-2">Rs 10,000</div>
-            <p class="text-emerald-100 text-sm">For business owners & entrepreneurs</p>
-          </div>
-          
-          <ul class="space-y-4 mb-8">
-            <li class="flex items-start">
-              <span class="text-white mr-3 text-xl">✓</span>
-              <span class="text-white">Everything in Starter +</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-white mr-3 text-xl">✓</span>
-              <span class="text-white">Advanced Python automation training</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-white mr-3 text-xl">✓</span>
-              <span class="text-white">Python libraries and tools included</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-white mr-3 text-xl">✓</span>
-              <span class="text-white">6-month cloud platform access</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-white mr-3 text-xl">✓</span>
-              <span class="text-white">Premium development tools</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-white mr-3 text-xl">✓</span>
-              <span class="text-white">Priority community support</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-white mr-3 text-xl">✓</span>
-              <span class="text-white">Business automation strategies</span>
-            </li>
-          </ul>
-          
-          <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="w-full bg-white hover:bg-gray-100 text-emerald-600 font-bold py-3 px-6 rounded-xl transition text-center block">
-            🚀 Start Learning
-          </a>
-        </div>
-
-        <!-- One on One Plan -->
-        <div class="bg-white rounded-3xl shadow-lg p-8 relative">
-          <div class="text-center mb-6">
-            <h3 class="text-2xl font-bold text-gray-800 mb-2">One on One</h3>
-            <div class="text-4xl font-bold text-purple-600 mb-2">Rs 35,000</div>
-            <p class="text-gray-600 text-sm">Personalized guidance & mentoring</p>
-          </div>
-          
-          <ul class="space-y-4 mb-8">
-            <li class="flex items-start">
-              <span class="text-purple-500 mr-3 text-xl">✓</span>
-              <span class="text-gray-700">Everything in Pro +</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-purple-500 mr-3 text-xl">✓</span>
-              <span class="text-gray-700">1-on-1 personalized sessions</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-purple-500 mr-3 text-xl">✓</span>
-              <span class="text-gray-700">Custom project development</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-purple-500 mr-3 text-xl">✓</span>
-              <span class="text-gray-700">Direct mentor access</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-purple-500 mr-3 text-xl">✓</span>
-              <span class="text-gray-700">Career guidance & planning</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-purple-500 mr-3 text-xl">✓</span>
-              <span class="text-gray-700">Portfolio review & optimization</span>
-            </li>
-            <li class="flex items-start">
-              <span class="text-purple-500 mr-3 text-xl">✓</span>
-              <span class="text-gray-700">Mentorship support</span>
-            </li>
-          </ul>
-          
-          <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-xl transition text-center block">
-            Get Personal Mentoring
-          </a>
-        </div>
-      </div>
-      
-      <div class="text-center mt-12">
-        <p class="text-lg font-semibold text-gray-800 mb-4">All plans include 7-Day "Love it or Money Back" Guarantee</p>
-        <p class="text-sm text-gray-600">Still unsure? <a href="#footer" class="text-emerald-600 hover:text-emerald-700 underline">Contact us for a free consultation</a></p>
-      </div>
-    </div>
-  </section>
 
   <!-- 13. FAQ -->
   <section class="py-16 bg-gray-100" data-aos id="faq">
@@ -1091,13 +997,16 @@
         </details>
         <details class="bg-white p-4 rounded-2xl shadow">
           <summary class="font-medium cursor-pointer">What's included in the course?</summary>
-          <p class="mt-2 text-sm text-gray-600">We offer 3 different plans to match your needs:
+          <p class="mt-2 text-sm text-gray-600">Our comprehensive Python course includes:
             <ul class="list-disc list-inside mt-2">
-              <li><strong>Starter (Rs 5,000):</strong> Perfect for beginners, students & teachers</li>
-              <li><strong>Pro (Rs 10,000):</strong> For business owners & entrepreneurs with Python libraries & automation tools</li>
-              <li><strong>One on One (Rs 35,000):</strong> Personalized mentoring with direct mentor access</li>
+              <li><strong>45 days of live interactive sessions</strong> with expert instructor</li>
+              <li><strong>13 hands-on projects</strong> for your portfolio</li>
+              <li><strong>Lifetime access</strong> to course materials and recordings</li>
+              <li><strong>Professional certificate</strong> from Technology Channel</li>
+              <li><strong>Community support</strong> and mentorship</li>
+              <li><strong>7-day money-back guarantee</strong> for your peace of mind</li>
             </ul>
-            All plans include 30 days of live classes, 13 hands-on projects, lifetime access, professional certificate, and 7-day money-back guarantee.
+            Fill out the registration form to get started with your Python journey!
           </p>
         </details>
         <details class="bg-white p-4 rounded-2xl shadow">
@@ -1110,10 +1019,10 @@
 
   <!-- 14. FINAL CTA -->
   <section class="py-20 bg-slate-900 text-white text-center" data-aos>
-    <h2 class="text-3xl md:text-4xl font-extrabold mb-6">Don't Let Technology Pass You By. <span class="text-emerald-400">Learn to Code WITH Python</span></h2>
+    <h2 class="text-3xl md:text-4xl font-extrabold mb-6"> <span class="text-emerald-400">Learn to Code WITH Python</span></h2>
     <p class="mb-8 text-lg">Join 200+ learners and <strong>increase your chance of success</strong> with Python skills.</p>
     
-          <a href="#pricing" class="inline-block bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 text-white text-xl font-bold py-4 px-10 rounded-2xl shadow-2xl transition-all transform hover:scale-105">
+          <a href="https://forms.gle/BTKiSn1HGX2dqrMA8" target="_blank" class="inline-block bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 text-white text-xl font-bold py-4 px-10 rounded-2xl shadow-2xl transition-all transform hover:scale-105">
         🚀 Secure Your Python Future
       </a>
     <p class="mt-4 text-sm opacity-80">🔥 Limited Seats Available</p>
@@ -1164,6 +1073,26 @@
 
   <!-- AOS SCRIPT -->
   <script>
+    // Mobile menu functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', function() {
+          mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+          link.addEventListener('click', function() {
+            mobileMenu.classList.add('hidden');
+          });
+        });
+      }
+    });
+
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
